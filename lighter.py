@@ -42,3 +42,4 @@ while(1):
     
     LED_like.off()
     LED_retweet.off()
+    sleep(8);

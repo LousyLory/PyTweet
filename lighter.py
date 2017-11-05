@@ -14,10 +14,10 @@ LED_like = LED(4)
 LED_retweet = LED(5)
 
 while(1):
-    api = tw.Api(consumer_key='8xEeUqGVTLmyS2f7Y8rOUnQIk',
-             consumer_secret='WQemTaZpY9DoMSf1jRlcPVLe5zHBO47gTvNod7BTe8AdKvpntY',
-             access_token_key='254519106-PXVDd8F77zdSv7QdhBO7htThNl5Uk95hmO5Fm2ev',
-             access_token_secret='SNaQ1LhYg1bf7IH2JVF4cc6gl8IeuuNY6vPuNdQMvPNAu')
+    api = tw.Api(consumer_key='MKEVTqMVBmrjNEqKztBV4lJ7n',
+             consumer_secret='UKUd8JFqs8ThlBNR1u0FfL9X88xIPfJbaSNHFI2j3fBmPiZ3ks',
+             access_token_key='927046369445076992-aQaF0Ue1FwYdAuxWpnAOMhKD3XAu0A5',
+             access_token_secret='W8HFctZoKSExssa24KU2Jxr62jZTLg9Eep2WrFE2m95Gi')
     
     G = api.VerifyCredentials()
     G1 = api.GetStatus(G.status.id)

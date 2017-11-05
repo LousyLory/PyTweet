@@ -19,6 +19,7 @@ while(1):
              access_token_key='254519106-PXVDd8F77zdSv7QdhBO7htThNl5Uk95hmO5Fm2ev',
              access_token_secret='SNaQ1LhYg1bf7IH2JVF4cc6gl8IeuuNY6vPuNdQMvPNAu')
     
+    G = api.VerifyCredentials()
     G1 = api.GetStatus(G.status.id)
     
     # count likes
